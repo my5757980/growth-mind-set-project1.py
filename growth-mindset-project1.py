@@ -57,7 +57,7 @@ if files:
              mime = "application/vnd.openxmlformates-officedocument.spreadsheetml.sheet"
              new_name = file.name.replace(ext, "xlsx")
              st.download_button("⬇️ download file" , file_name=new_name , data=output , mime=mime)
-             st.success("processing completed")
+             st.success("processing completed 🎉")
 
 
 
